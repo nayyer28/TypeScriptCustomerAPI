@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                /* Specify the ECMAScript target version */
+      "module": "CommonJS",           /* Specify module code generation */
+      "esModuleInterop": true,        /* Enable compatibility with commonJS modules */
+      "skipLibCheck": true,           /* Skip type checking of declaration files */
+      "forceConsistentCasingInFileNames": true, /* Force consistent letter casing in file names */
+      "moduleResolution": "node",
+      "removeComments": true,
+      "sourceMap": false,
+  
+      /* Output directory for compiled JavaScript */
+      "outDir": "./dist",
+  
+      /* Entry file for your application */
+      "rootDir": "./src",
+      "resolveJsonModule": true,
+      "allowJs": true,
+      "strict": false
+  
+    },
+    "include": ["src"],                /* Specify the files to include in compilation */
+    "exclude": ["node_modules", "dist/*", "src/static"],     /* Specify the files to exclude from compilation */
+    "lib": ["es6"]
+  }
+  
